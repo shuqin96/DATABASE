@@ -15,15 +15,16 @@ Description: A mutation of a genome position can have multiple scores.
 
 import pandas as pd
 import sys, getopt
+from itertools import cycle
 
 data = ''
 outpath = ''
 # set up input name and outpath for each job
 opts, args = getopt.getopt(sys.argv[1:], "d:p:", ['data=', 'path='])
 for name, value in opts:
-    if name in ('-d', '--data'): # 命令行参数-d, --data指定的是该脚本中data的值
+    if name in ('-d', '--data'):
         data = value
-    if name in ('-p', '--path'): # 命令行参数-p, --path指定的是该脚本中outpath的值
+    if name in ('-p', '--path'):
         outpath = value
 
 data = data
@@ -37,7 +38,7 @@ def dbnsfp_clean():
 	dbnsfp.to_csv(outpath + data + '_dbnsfp_output_clean.tsv',sep='\t',index=0)
 
 
-# 以下方法的score是按aapos(ENST,ENSP,UniprotID)对应分开的,但是有个例外，FATHMM score虽然说是按ENSP对应的，但是当它多个对应的都是'.'时，它只展示一个'.',这样就不能用以下程序对应，得单独处理
+# The following is the processing of the SIFT_score、Polyphen2_HDIV_score、Polyphen2_HVAR_score、MutationAssessor_score、PROVEAN_score、VEST4_score, which is divided into multiple lines according to aapos
 def dbnsfp1():
 	df = pd.read_csv(outpath + data + '_dbnsfp_output_clean.tsv',sep='\t',dtype=str)
 	# These columns need to be processed separately, so remove them first.
@@ -77,6 +78,7 @@ def dbnsfp_mutationtaster():
 	uni.to_csv(outpath + data + "_dbnsfp_output_mutationtaster.tsv",sep='\t',index=0)
 
 
+# The following is the processing of the FATHMM score, 虽然说是按ENSP对应的，但是当它多个对应的都是'.'时，它只展示一个'.'
 def dbnsfp_fathmm():
 	df = pd.read_csv(outpath + data + '_dbnsfp_output.tsv',sep='\t',dtype=str)
 	fw = open(outpath + data + "_dbnsfp_output_fathmm.tsv",'w')
