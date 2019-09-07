@@ -9,8 +9,8 @@ DoCM, the Database of Curated Mutations, is a highly curated database of known, 
 Criteria for inclusion into DoCM:  
 Clinical evidence  
      Drug targets associated with a mutation
-     Diagnostic or prognostic markers associated with a mutation
-Functional evidence  
+     Diagnostic or prognostic markers associated with a mutation  
+Functional evidence   
      Disease function described in cell lines
      Disease function described in animal models
      Extremely recurrent mutation coupled with expert opinion of the significance of the mutation
@@ -31,9 +31,11 @@ KinDriver,the first database that compiles driver mutations in protein kinases (
 The IARC TP53 Database compiles various types of data and information on human TP53 gene variations related to cancer. Data are compiled from the peer-reviewed literature and from generalist databases.
 
 ## ExAC
-The Exome Aggregation Consortium (ExAC) is a coalition of investigators seeking to aggregate and harmonize exome sequencing data from a variety of large-scale sequencing projects, and to make summary data available for the wider scientific community. The data set spans 60,706 unrelated individuals sequenced as part of various disease-specific and population genetic studies. The author has removed individuals affected by severe pediatric disease, so this data set should serve as a useful reference set of allele frequencies for severe disease studies. All of the raw data from these projects have been reprocessed through the same pipeline, and jointly variant-called to increase consistency across projects.
+The Exome Aggregation Consortium (ExAC) is a coalition of investigators seeking to aggregate and harmonize exome sequencing data from a variety of large-scale sequencing projects, and to make summary data available for the wider scientific community.  
+The data set spans 60,706 unrelated individuals sequenced as part of various disease-specific and population genetic studies. The author has removed individuals affected by severe pediatric disease, so this data set should serve as a useful reference set of allele frequencies for severe disease studies. All of the raw data from these projects have been reprocessed through the same pipeline, and jointly variant-called to increase consistency across projects.
 ## dbCPM
 dbCPM is a comprehensive literature-based database of Cancer Passenger Mutations, which contains 941 experimentally supported and 978 putative passenger mutations derived from a manual curation of the literature.
 
 ## dbNSFP
-dbNSFP is a database developed for functional prediction and annotation of all potential non-synonymous single-nucleotide variants (nsSNVs) in the human genome. It compiles prediction scores from 29 prediction algorithms (SIFT, SIFT4G, Polyphen2-HDIV, Polyphen2-HVAR, LRT, MutationTaster2, MutationAssessor, FATHMM, MetaSVM, MetaLR, CADD, VEST4, PROVEAN, FATHMM-MKL coding, FATHMM-XF coding, fitCons, LINSIGHT, DANN, GenoCanyon, Eigen, Eigen-PC, M-CAP, REVEL, MutPred, MVP, MPC, PrimateAI, GEOGEN2, ALoFT), 9 conservation scores (PhyloP x 3, phastCons x 3, GERP++, SiPhy and bStatistic) and other related information including allele frequencies observed in the 1000 Genomes Project phase 3 data, UK10K cohorts data, ExAC consortium data, gnomAD data and the NHLBI Exome Sequencing Project ESP6500 data, various gene IDs from different databases, functional descriptions of genes, gene expression and gene interaction information, etc.
+dbNSFP is a database developed for functional prediction and annotation of all potential non-synonymous single-nucleotide variants (nsSNVs) in the human genome.  
+It compiles prediction scores from 29 prediction algorithms (SIFT, SIFT4G, Polyphen2-HDIV, Polyphen2-HVAR, LRT, MutationTaster2, MutationAssessor, FATHMM, MetaSVM, MetaLR, CADD, VEST4, PROVEAN, FATHMM-MKL coding, FATHMM-XF coding, fitCons, LINSIGHT, DANN, GenoCanyon, Eigen, Eigen-PC, M-CAP, REVEL, MutPred, MVP, MPC, PrimateAI, GEOGEN2, ALoFT), 9 conservation scores (PhyloP x 3, phastCons x 3, GERP++, SiPhy and bStatistic) and other related information including allele frequencies observed in the 1000 Genomes Project phase 3 data, UK10K cohorts data, ExAC consortium data, gnomAD data and the NHLBI Exome Sequencing Project ESP6500 data, various gene IDs from different databases, functional descriptions of genes, gene expression and gene interaction information, etc.
