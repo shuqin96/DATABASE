@@ -6,11 +6,11 @@ CIViC is an open access, open source, community-driven web resource for Clinical
 ## DoCM
 DoCM, the Database of Curated Mutations, is a highly curated database of known, disease-causing mutations that provides easily explorable variant lists with direct links to source citations for easy verification.
 
-Criteria for inclusion into DoCM:
-Clinical evidence
+Criteria for inclusion into DoCM:  
+Clinical evidence  
      Drug targets associated with a mutation
      Diagnostic or prognostic markers associated with a mutation
-Functional evidence
+Functional evidence  
      Disease function described in cell lines
      Disease function described in animal models
      Extremely recurrent mutation coupled with expert opinion of the significance of the mutation
@@ -36,5 +36,4 @@ The Exome Aggregation Consortium (ExAC) is a coalition of investigators seeking 
 dbCPM is a comprehensive literature-based database of Cancer Passenger Mutations, which contains 941 experimentally supported and 978 putative passenger mutations derived from a manual curation of the literature.
 
 ## dbNSFP
-dbNSFP is a database developed for functional prediction and annotation of all potential non-synonymous single-nucleotide variants (nsSNVs) in the human genome.
-MetaSVM, MetaLR, CADD, VEST3, PROVEAN, 4× fitCons, fathmm-MKL, DANN, SIFT, 2× Polyphen2, LRT, MutationTaster, MutationAssessor, FATHMM, M_CAP, REVEL, MutPred, Eigen and GenoCanyon) and conservation scores(GERP++, SiPhy, 2× phastCons scores and 2× phyloP scores)
+dbNSFP is a database developed for functional prediction and annotation of all potential non-synonymous single-nucleotide variants (nsSNVs) in the human genome. It compiles prediction scores from 29 prediction algorithms (SIFT, SIFT4G, Polyphen2-HDIV, Polyphen2-HVAR, LRT, MutationTaster2, MutationAssessor, FATHMM, MetaSVM, MetaLR, CADD, VEST4, PROVEAN, FATHMM-MKL coding, FATHMM-XF coding, fitCons, LINSIGHT, DANN, GenoCanyon, Eigen, Eigen-PC, M-CAP, REVEL, MutPred, MVP, MPC, PrimateAI, GEOGEN2, ALoFT), 9 conservation scores (PhyloP x 3, phastCons x 3, GERP++, SiPhy and bStatistic) and other related information including allele frequencies observed in the 1000 Genomes Project phase 3 data, UK10K cohorts data, ExAC consortium data, gnomAD data and the NHLBI Exome Sequencing Project ESP6500 data, various gene IDs from different databases, functional descriptions of genes, gene expression and gene interaction information, etc.
