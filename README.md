@@ -1,7 +1,7 @@
 # DATABASE
 Here is the processing script of the database I used.
 
-## CIViC
+CIViC<https://civicdb.org/home>
 CIViC is an open access, open source, community-driven web resource for Clinical Interpretation of Variants in Cancer.
 ## DoCM
 DoCM, the Database of Curated Mutations, is a highly curated database of known, disease-causing mutations that provides easily explorable variant lists with direct links to source citations for easy verification.
