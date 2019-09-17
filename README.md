@@ -3,14 +3,15 @@ Here is the processing script of the database I used.
 
 [CIViC](https://civicdb.org/home)-CIViC is an open access, open source, community-driven web resource for Clinical Interpretation of Variants in Cancer.  
 [DoCM](http://docm.info/)-DoCM, the Database of Curated Mutations, is a highly curated database of known, disease-causing mutations that provides easily explorable variant lists with direct links to source citations for easy verification.  
-*Criteria for inclusion into DoCM:  
-     *Clinical evidence  
-          *Drug targets associated with a mutation  
-          *Diagnostic or prognostic markers associated with a mutation  
-     *Functional evidence   
-          *Disease function described in cell lines  
-          *Disease function described in animal models  
-          *Extremely recurrent mutation coupled with expert opinion of the significance of the mutation  
+* Criteria for inclusion into DoCM:  
+     * Clinical evidence  
+          * Drug targets associated with a mutation  
+          * Diagnostic or prognostic markers associated with a mutation  
+     * Functional evidence   
+          * Disease function described in cell lines  
+          * Disease function described in animal models  
+          * Extremely recurrent mutation coupled with expert opinion of the significance of the mutation  
+
 [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)-ClinVar is a a freely accessible, public archive of reports of the relationships among human variations and phenotypes hosted by the National Center for Biotechnology Information (NCBI) and funded by intramural National Institutes of Health (NIH) funding.  
 [COSMIC](https://cancer.sanger.ac.uk/cosmic)-COSMIC, the Catalogue Of Somatic Mutations In Cancer, is the world's largest and most comprehensive resource for exploring the impact of somatic mutations in human cancer.  
 [Cancer Biomarker Database](https://www.cancergenomeinterpreter.org/biomarkers)-Cancer Biomarkers database, is a resources annotating the biomarkers of tumor response to drugs which currently contains information on 1624 genomic biomarkers of response (sensitivity, resistance, or toxicity) to 310 drugs across 130 types of cancer.  
