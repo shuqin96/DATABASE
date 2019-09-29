@@ -44,7 +44,7 @@ def filter_pass():
 
 def excet_csq():
 	os.chdir(('%s') % (path))
-	os.system("java -jar /data/wangs/webserve/snpEff/SnpSift.jar extractFields -s ',' -e '.' ExAC_nonTCGA.r1.sites.filter_PASS.vcf CHROM POS REF ALT AF CSQ > /data1/wangs/CanDriver/data/ExAC/output/ExAC_nonTCGA.r1.sites.filter_PASS_need_cols.tsv")
+	os.system("java -jar /data/wangs/webserve/snpEff/SnpSift.jar extractFields -s ',' -e '.' ExAC_nonTCGA.r1.sites.filter_PASS.vcf CHROM POS REF ALT AF[*] CSQ > /data1/wangs/CanDriver/data/ExAC/output/ExAC_nonTCGA.r1.sites.filter_PASS_need_cols.tsv")
 
 
 def select_single_nucleotide():
