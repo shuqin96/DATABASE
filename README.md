@@ -28,7 +28,8 @@ A repository of cancer clinical knowledge bases and databases focused on cancer 
 ### CANCER DATABASE
 [TCGA](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) - The Cancer Genome Atlas (TCGA), a landmark cancer genomics program, molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. 
 
-[ICGC](https://icgc.org/) - The ICGC was established to launch and coordinate a large number of research projects sharing a common goal of **unraveling the genomic changes present in many forms of cancer** that contribute to the burden of disease in people throughout the world.
+[ICGC](https://icgc.org/) - The ICGC was established to launch and coordinate a large number of research projects sharing a common goal of **unraveling the genomic changes present in many forms of cancer** that contribute to the burden of disease in people throughout the world.  
+
 [COSMIC](https://cancer.sanger.ac.uk/cosmic) - COSMIC, the Catalogue Of Somatic Mutations In Cancer, is the world's largest and most comprehensive resource for exploring the impact of **somatic mutations in human cancer**.  
 
 ### NEUTRAL DATABASE
